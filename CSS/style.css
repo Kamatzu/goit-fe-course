@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
 div {
     background-color: red;
-    border: 10px black;
+    border: solid 10px black;
+    border-width: 10px;
+    min-height: 120px;
+    font-family: 'Playfair Display', serif;
 }
 
+.yellow-block {
+    background-color: yellow;
+}
+
+
+rectangle {
+    background-color: blue;
+}
+
+
+.add-css {
+    border: 10px solid green;
+}
+
+.inline {
+    display: inline-block;
+}
