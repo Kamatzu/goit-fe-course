@@ -1,3 +1,5 @@
+/*
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
@@ -25,4 +27,17 @@ rectangle {
 
 .inline {
     display: inline-block;
+} 
+
+*/
+
+.align p {
+    text-align:justify;
+   /* margin: auto; */
+    width: 500px;
+    background-image: url(https://img.pravda.com/images/doc/b/2/b206705-reznikov-getty3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: ;
+    height: 100vh;
 }
