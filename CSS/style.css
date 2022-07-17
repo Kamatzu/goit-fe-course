@@ -1,43 +1,57 @@
-/*
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-
-div {
-    background-color: red;
-    border: solid 10px black;
-    border-width: 10px;
-    min-height: 120px;
-    font-family: 'Playfair Display', serif;
-}
-
-.yellow-block {
-    background-color: yellow;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 
-rectangle {
-    background-color: blue;
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    font-size: 32px;
+    padding: 15px;
+}
+
+.menu ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
-.add-css {
-    border: 10px solid green;
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+
 }
 
-.inline {
-    display: inline-block;
-} 
+.menu ul li a::after {
+    color: black;
+    text-decoration: none;
 
-*/
+}
 
-.align p {
-    text-align:justify;
-   /* margin: auto; */
-    width: 500px;
-    background-image: url(https://img.pravda.com/images/doc/b/2/b206705-reznikov-getty3.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: ;
-    height: 100vh;
+
+.section {
+    display: inline-flex; 
+    text-align: center;
+}
+
+
+.background {
+
+    width: 280px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#card-1 {
+    background-image: url(../IMG/barcelona-park-guell-GettyImages-512152500.webp);
+}
+
+#card-2 {
+    background-image: url(../IMG/barcelona-placa-reial-GettyImages-170400044.webp);
 }
