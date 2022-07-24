@@ -87,3 +87,37 @@
 }
 
 */
+
+.task-1 {
+    height: auto;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.task-1 li {
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+}
+
+.task-1 li:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+
+.text-underline {
+    clear: both;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-underline::after {
+    content: "";
+    width: 125px;
+    height: 3px;
+    background-color: brown;
+    float: left;
+    margin: 0 190px;
+}
