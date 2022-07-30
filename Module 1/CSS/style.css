@@ -121,3 +121,19 @@
     float: left;
     margin: 0 190px;
 }
+
+.counter-element {
+    counter-increment: count-box;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+
+.counter-element::before {
+    content: counter(count-box, upper-roman);
+    text-align: center;
+    vertical-align: center;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}

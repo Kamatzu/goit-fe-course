@@ -1,0 +1,9 @@
+* {
+    background-color: rgb(0, 255, 17);
+}
+
+header>ul>li {
+    list-style-type: circle;
+    display: inline-block;
+    
+}
